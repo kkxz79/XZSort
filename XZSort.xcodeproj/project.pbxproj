@@ -13,6 +13,8 @@
 		9B963B7E216DE40100F11A3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B963B7D216DE40100F11A3D /* Assets.xcassets */; };
 		9B963B81216DE40100F11A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B963B7F216DE40100F11A3D /* LaunchScreen.storyboard */; };
 		9B963B84216DE40100F11A3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B963B83216DE40100F11A3D /* main.m */; };
+		9BC2DC80217045AC005315C9 /* NSString+Date.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2DC7F217045AC005315C9 /* NSString+Date.m */; };
+		9BC2DC842170752E005315C9 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC2DC832170752E005315C9 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		9B963B80216DE40100F11A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B963B82216DE40100F11A3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B963B83216DE40100F11A3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BC2DC7E217045AC005315C9 /* NSString+Date.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Date.h"; sourceTree = "<group>"; };
+		9BC2DC7F217045AC005315C9 /* NSString+Date.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Date.m"; sourceTree = "<group>"; };
+		9BC2DC822170752E005315C9 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		9BC2DC832170752E005315C9 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				9B963B7F216DE40100F11A3D /* LaunchScreen.storyboard */,
 				9B963B82216DE40100F11A3D /* Info.plist */,
 				9B963B83216DE40100F11A3D /* main.m */,
+				9BC2DC7E217045AC005315C9 /* NSString+Date.h */,
+				9BC2DC7F217045AC005315C9 /* NSString+Date.m */,
+				9BC2DC822170752E005315C9 /* Person.h */,
+				9BC2DC832170752E005315C9 /* Person.m */,
 			);
 			path = XZSort;
 			sourceTree = "<group>";
@@ -143,7 +153,9 @@
 			files = (
 				9B963B79216DE3FB00F11A3D /* ViewController.m in Sources */,
 				9B963B84216DE40100F11A3D /* main.m in Sources */,
+				9BC2DC842170752E005315C9 /* Person.m in Sources */,
 				9B963B76216DE3FB00F11A3D /* AppDelegate.m in Sources */,
+				9BC2DC80217045AC005315C9 /* NSString+Date.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

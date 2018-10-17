@@ -7,7 +7,15 @@
 //
 
 #import "Person.h"
+@interface Person()
+//在.m文件中的类扩展，定义的方法为私有方法
+-(void)extensionMethod;//私有方法
+@end
 
 @implementation Person
+-(void)extensionMethod
+{
+    //
+}
 
 @end
